@@ -106,7 +106,7 @@ public void popAll(Collection<? super E> dst) {
 
 > The lesson is clear. **For maximum flexibility, use wildcard types on input parameters that represent producers or consumers.** If an input parameter is both a producer and a consumer, then wildcard types will do you no good: you need an exact type match, which is what you get without any wildcards. Here is a mnemonic to help you remember which wildcard type to use:
 
-教训是清楚的。**为了获得最大的灵活性，应在表示生产者或消费者的输入参数上使用通配符类型。**如果输入参数既是生产者又是消费者，那么通配符类型对你没有任何好处：你需要一个精确的类型匹配，这就是在没有通配符的情况下得到的结果。这里有一个助记符帮助你记住使用哪种通配符类型：
+教训是清楚的。**为了获得最大的灵活性，应在表示生产者或消费者的输入参数上使用通配符类型。** 如果输入参数既是生产者又是消费者，那么通配符类型对你没有任何好处：你需要一个精确的类型匹配，这就是在没有通配符的情况下得到的结果。这里有一个助记符帮助你记住使用哪种通配符类型：
 
 > **PECS stands for producer-extends, consumer-super.**
 
